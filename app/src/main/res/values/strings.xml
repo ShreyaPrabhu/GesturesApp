@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">GesturesApp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_view">onSingleTap - Camera</string>
+    <string name="text_view1">onDoubleTap - Messaging </string>
+    <string name="text_view2">onShowPress - Calculator</string>
+    <string name="text_view3">onLongPress - Contact</string>
+    <string name="text_view4">onFling - Calender</string>
+    <string name="desc">Detects Gestures and launches various Applications</string>
+</resources>

@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/textColorPrimary"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme">
+
+        <include
+            android:id="@+id/app_bar"
+            layout="@layout/app_bar" />
+    </android.support.design.widget.AppBarLayout>
+
+
+    <TextView
+        android:id="@+id/AppDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="@string/desc"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/textColor" />
+
+    <TextView
+        android:id="@+id/Gestures"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/text_view"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/textColor" />
+
+    <TextView
+        android:id="@+id/Gestures1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_view1"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/textColor" />
+
+    <TextView
+        android:id="@+id/Gestures2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_view2"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/textColor" />
+
+    <TextView
+        android:id="@+id/Gestures3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_view3"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/textColor" />
+
+    <TextView
+        android:id="@+id/Gestures4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_view4"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/textColor" />
+</LinearLayout>
